@@ -9,19 +9,21 @@
     </head>
 
     <body>
-        <h2>Dealer: <span id="dealer"></span></h2>
+        <h2>Dealer: </h2>
         <div id="dealer-cards">
             <img id = "hidden" src="./cards/BACK.png">
             <img id = "hidden" src="./cards/BACK.png">
         </div>
 
-        <h2>You: <span id="your-hand"></span></h2>
+        <h2>You: </h2>
         <div id = "your-cards">
             
         </div>
 
         <br>
-        <button id="button1">Button 1</button>
-        <button id="button2">Button 2</button>
+        <button id="dealButton" onclick="dealHand()">Deal</button>
+
+        <div id="pot"><h2>Pot: 0</h2></div>
+        <div id="message"></div>
     </body>
 </html>
