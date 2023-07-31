@@ -15,6 +15,12 @@ body {
     margin: 1px;
 }
 
+#pot img {
+    height: 175px;
+    width: 125px;
+    margin: 1px;
+}
+
 #button1 {
     width: 100px;
     height: 50px;
@@ -26,3 +32,5 @@ body {
     height: 50px;
     font-size: 20px;
 }
+
+
